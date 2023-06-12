@@ -76,7 +76,7 @@ def change_prefixes_and_suffixes(newWord,og_word):
         special_vowel = vowels[random.randint(0, len(vowels)-1)]   
       newWord = newWord.replace(newWord[0:2], special_start_sound)
       newWord = newWord.replace(newWord[2], special_vowel)
-
+      #hello thi schange ajishckasnca;d
       #end sounds
       special_end = end_letters[random.randint(0,len(end_letters)-1)]
       vowel_before_end = vowels[random.randint(0, len(vowels)-1)]
